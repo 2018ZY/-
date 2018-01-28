@@ -1,0 +1,39 @@
+\documentclass[twoside,a4paper]{article}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{fancyhdr}
+\usepackage[UTF8]{ctex}
+\begin{document}
+	\pagestyle{fancy}
+	\fancyhead{}
+	\lhead{ZY}
+	\chead{2014年数学分析}
+	\rhead{2018.01.28}
+%	\footnote{2018.1.27}
+
+	\begin{enumerate}
+		\item 叙述实数序列\(\{x_n\}\)的Cauchy收敛原理，并且使用Bolzano-Weierstrass定理证明。
+		\item 序列\(\{x_n\}\)满足\(x_1=1\),\(x_{n+1}=\sqrt{4+3x_n}\), n=1,2,\dots,证明此序列收敛并求极限。
+		\item 计算\[\iiint_{\Omega}f(x,y,z)\mathrm{d}x\mathrm{d}y\mathrm{d}z \]其中\(\Omega\)是曲面\(z=\sqrt{x^2+y^2}\)与\(z=1\)围成的有界区域。
+		\item 证明函数项级数\[\sum_{n=1}^{+\infty} {x^3 e^{-nx^2}}\]在\([0,+\infty)\)一致收敛。
+		\item 讨论级数\[
+		\sum_{n=3}^{+\infty}{\ln \cos({\pi}/{n})}
+		\]
+		的敛散性。
+		
+		\item 设函数$ f:\mathbb{R}^{n} \to \mathbb{R} $在$ \mathbb{R}^{n}\backslash \textbf{0} $可微，在$ \textbf{0} $点连续，且$ \lim\limits_{\textbf{p} \to \textbf{0}} {\frac{\partial f(\textbf{p})}{\partial x_i}} = 0$,$ i = 1,2,\cdots,n $,证明$ f $在\textbf{0} 处可微。
+		
+		\item 设$ f(x),g(x) $是[0,1]上的连续函数，且$ \sup\limits_{x\in [0,1]} {f(x)} = \sup\limits_{x\in [0,1]}{g(x)}$。证明存在$ x_0 \in [0,1] $,使得$ e^{f(x_0)} +3f(x_0) = e^{g(x_0)} +3g(x_0)$。
+		\item 记$ \Omega = \{\textbf{p} \in \mathbb{R}^{3} | |\textbf{p}|\le 1\} $，设$ V:\mathbb{R}^{3} \to \mathbb{R}^{3} $,$ V = (V_1 , V_2 ,V_3) $是$ C^{1} $向量场，$ V $在$ \mathbb{R}^{3}\backslash \Omega $恒为$ 0 $，\[ \frac{\partial V_{1}}{\partial x}+ \frac{\partial V_{2}}{\partial y}+\frac{\partial V_{3}}{\partial z}\] 在$ \mathbb{R}^{3} $恒为$ 0 $。
+		\begin{enumerate}
+			\item 设$ f:\mathbb{R}^{3} \to \mathbb{R} $是$ C^{1} $函数，求$ \iiint_{\Omega}{\nabla f \cdot V \mathrm{d}x\mathrm{d}y\mathrm{d}z} $；
+			\item 求$ \iiint_{\Omega}{V_{1} \mathrm{d}x\mathrm{d}y\mathrm{d}z} $。
+		\end{enumerate}
+		
+		\item 设$ f:\mathbb{R} \to \mathbb{R} $是有界连续函数，求
+		\[
+		 \lim_{t \to 0^{+}}{\int_{- \infty}^{+ \infty}{f(x) \frac {t} {t^{2}+x^{2}  }\mathrm{d}x}	}  \mbox{。}\]
+		 
+		 \item $ f:[0,1] \to [0,1] $是$ C^{2} $函数,$ f(0) = f(1) = 0 $,且$ f''(x)<0 , \forall x \in [0,1] $。记曲线$ \{(x,f(x))| x \in [0,1]\} $的弧长是$ L $,证明$ L<3 $。
+	\end{enumerate}
+\end{document}
